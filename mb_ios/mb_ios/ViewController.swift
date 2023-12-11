@@ -23,5 +23,9 @@ class ViewController: NSViewController {
     
     func test() { }
 
+    func setupView() {
+        view.window?.backgroundColor = .systemYellow
+    }
+
 }
 
