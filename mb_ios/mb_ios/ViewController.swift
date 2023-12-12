@@ -11,7 +11,8 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        changeBGColor()
+        someFunc()
         // Do any additional setup after loading the view.
     }
 
@@ -26,6 +27,14 @@ class ViewController: NSViewController {
     func setupView() {
         view.window?.backgroundColor = .systemYellow
     }
+
+    func changeBGColor() {
+        view.backgroundColor = .yellow
+    }
+
+    func someFunc() {}
+
+    func foo() {}
 
 }
 
