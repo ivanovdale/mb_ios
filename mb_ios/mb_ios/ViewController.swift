@@ -28,7 +28,7 @@ class ViewController: NSViewController {
     }
 
     func changeBGColor() {
-       
+        view.backgroundColor = .yellow
     }
 
 }
